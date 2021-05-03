@@ -1,7 +1,7 @@
 
 // Based on the MicroIndexer shown at
 // https://www.youtube.com/watch?v=0ACs5FRYcTE 
-// Using an encoder
+// Using an encoder, lcd, stepper driver, and Teensy 3.2.
 
 // operation states
 enum MODES {DEGMODE, DIVMODE, RPMMODE, STEPMODE, CONFIGMODE, ZEROMODE, END};
