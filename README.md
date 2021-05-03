@@ -18,7 +18,7 @@ This project uses a Teensy microcontroller, an LCD, and a rotary encoder to cont
 
 See 
 
-* https://www.youtube.com/watch?v=0ACs5FRYcTE  -- for inspiration
+* For inspiration see [![Youtube of MicroIndexer demo](docs/Harrzack_MicroIndexer.png "Youtube link to Harrzack's 2014 build")](https://www.youtube.com/watch?v=0ACs5FRYcTE).
 * ![MicroIndexer.jpg](docs/MicroIndexer.jpg "Picture of MicroIndexer breadboard build showing LCD screen at index 3/7")
 * ![MicroIndexer_breadboard.jpg](docs/MicroIndexer_breadboard.jpg "Picture of MicroIndexer breadboard build showing wiring")
 
