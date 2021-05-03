@@ -1,9 +1,17 @@
 
+// https://github.com/drf5n/MicroIndexer
 // Based on the MicroIndexer shown at
 // https://www.youtube.com/watch?v=0ACs5FRYcTE 
 // Using an encoder, lcd, stepper driver, and Teensy 3.2.
+// Hardware:
+//  Teensy 3.2 : https://www.pjrc.com/store/teensy32.html
+//  2x16 I2C Liquid Crystal Display
+//  20 detent rotary encoder button (KY-040 ?)
+//  A4988 stepper driver board like https://www.pololu.com/product/1182
+//  NEMA 17 bipolar stepper motor 200 steps/rev
+//  misc bits: breadboard, plexiglass, plywood knob, etc. 
 
-// operation states
+// operation states:
 enum MODES {DEGMODE, DIVMODE, RPMMODE, STEPMODE, CONFIGMODE, ZEROMODE, END};
 enum MENU_DEPTH {TOP, RUN, CONFIG};
 // at TOP, scroll between MODES click -> RUN, long ->CONFIG
